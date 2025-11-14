@@ -1,21 +1,31 @@
+:root{
+    --blanco:#ffffff;
+    --oscuro:#03053a;
+    --primario:#9f7e13;
+    --secundario:#000000;  
+    --gris:#dadee3;
+    --tamaño-fuente:16px;
+}
+
 html{
     font-size: 62.5%;
 }
 
 body{
     font-family: 'Roboto',sans-serif;
-    font-size: 16px;
+    font-size: var(--tamaño-fuente);
+
 }
 
 
 /*utilidades*/
 .contenedor{
-    width: 800px;
+    width: 75%;
     margin: 0 auto;
 }
 
 .bg-secundario{
-    background-color: #187e29;
+    background-color: var(--primario);
 }
 
 
@@ -28,13 +38,13 @@ h2{
 }
 
 .titulo{
-    color: #0077b6;
+    color: var(--secundario);
     font-size: 3.8rem;
     text-align: center;
 }
 
 .titulo span{
-    color: #187e29;
+    color: var(--primario);
     font-size: 2rem;
 }
 
@@ -44,9 +54,18 @@ p{
 
 
 .navegación-principal{
-    background-color: #187e29;
+    background-color: var(--primario);
 }
 
-.navegación-principal{
-    color: red;
+.navegación-principal a{
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.navegación-principal a:hover{
+    color: var(--oscuro);
+    background-color: var(--secundario);
 }
