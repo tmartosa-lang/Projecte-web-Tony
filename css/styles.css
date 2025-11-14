@@ -54,10 +54,13 @@ p{
 
 
 .navegación-principal{
+    display: flex;
+    justify-content: space-around;
     background-color: var(--primario);
 }
 
 .navegación-principal a{
+    text-align: center;
     color: var(--blanco);
     text-decoration: none;
     font-size: 2rem;
