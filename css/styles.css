@@ -55,8 +55,17 @@ p{
 
 .navegación-principal{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     background-color: var(--primario);
+}
+
+
+
+@media (min-width: 768px) {
+    .navegación-principal{
+        flex-direction: row;
+    }
 }
 
 .navegación-principal a{
