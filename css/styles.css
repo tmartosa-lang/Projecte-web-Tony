@@ -14,9 +14,19 @@ html{
 body{
     font-family: 'Roboto',sans-serif;
     font-size: var(--tamaño-fuente);
-
 }
-
+h1{
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 1.8rem;
+}
+h3{
+    font-size: 2.6rem;
+}
+h1,h2,h3{
+    text-align: center;
+}
 
 /*utilidades*/
 .contenedor{
@@ -29,13 +39,6 @@ body{
 }
 
 
-h1{
-    font-size: 2.5rem;
-}
-
-h2{
-    font-size: 1.8rem;
-}
 
 .titulo{
     color: var(--secundario);
@@ -88,8 +91,26 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     height: 45rem;
+    position: relative;
 }
 
 .contenido-hero{
-    color: black;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgb(0 0 0 / 60%);
+    color: var(--blanco);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.informacion{
+    display: flex;
+    justify-content: center;
 }
