@@ -81,3 +81,15 @@ p{
     color: var(--oscuro);
     background-color: var(--secundario);
 }
+
+/*estilos para el hero*/
+.hero{
+    background-image: url('../img/hero-1024x768.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45rem;
+}
+
+.contenido-hero{
+    color: black;
+}
