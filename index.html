@@ -140,35 +140,46 @@
 
     </div><!--.micontenido-->
     <section>
-         <h2>Contacto</h2>
-         <form action="">
+          <h2>Contacto</h2>
+          <form class="formulario" action="">
             <fieldset>
             <legend>Contáctame enviando tus datos</legend>
-            <div>
-                <label for="">Nombre:</label>
-                <input type="text" name="nombre">
-            </div>
-            <div>
-                <label for="">Teléfono</label>
-                <input type="tel" name="teléfono" id="">
-            </div>
-            <div>
-                <label for="">Correo</label>
-                <input type="email" name="Correo" id="">
-            </div>
-            <div>
-                <label for="">Mensaje</label>
-                <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
-            </div>
-            <div>
-                <input class="boton" type="submit" value="Enviar">
-            </div>
+            <div class="contenedor-campos">
+              <div class="campo">
+                <div>
+                  <label for="">Nombre:</label>
+                  <input class="input-text" type="text" name="nombre" placeholder="Tu Nombre">
+                </div>
+          </div>
+                <div class="campo">
+                  <div>
+                      <label for="">Teléfono</label>
+                      <input class="input-text" type="tel" name="teléfono" id="" placeholder="Tu teléfono">
+                  </div>
+                    </div>
+                    <div class="campo">
+                      <div>
+                          <label for="">Correo</label>
+                          <input class="input-text" type="email" name="Correo" id="" placeholder="Tu correo">
+                      </div>
+
+                    </div>
+                    <div class="campo">
+                      <div>
+                          <label for="">Mensaje</label>
+                          <textarea class="input-text" name="mensaje" id="" cols="30" rows="10"></textarea>
+                      </div>
+                    </div>
+              <div>
+                  <input class="boton" type="submit" value="Enviar">
+              </div>
+            </div><!--contenedor-campos-->
             </fieldset>
-         </form>
+          </form>
     </section>
-   </main>
-   <footer>
+    </main>
+    <footer>
     <p>Todos los derechos reservados</p>
-   </footer>
+    </footer>
 </body>
 </html>

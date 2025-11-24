@@ -32,6 +32,10 @@ h1,h2,h3{
     text-align: center;
 }
 
+fieldset{
+    border: none;
+}
+
 /*utilidades*/
 .contenedor{
     width: 75%;
@@ -180,4 +184,39 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.formulario{
+    background-color: var(--gris);
+    width: min(60rem,100%);
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.formulario legend{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: var(--primario);
+}
+
+.campo{
+    margin-bottom: 1rem;
+}
+
+.campo label{
+    color: var(--secundario);
+    font-weight: bold;
+    display: block;
+    margin-bottom: .5rem;
+}
+
+
+.input-text{
+    width: 100%;
+    border: none;
+    padding: 1rem;
+    border-radius: .5rem;
 }
